@@ -1,2 +1,3 @@
 # Lookup/Dictonary
- It´s a Python script to check meaning of words
+This is a Python program that loads a dictionary from a JSON file, which contains words and their corresponding definitions. It then prompts the user to input a word, and if the word exists in the dictionary, the program returns its definition. If the word does not exist in the dictionary, it uses the difflib library to find the closest matching word(s) and returns their definition(s). If no matches are found, the program returns a message saying that the word doesn't exist in the dictionary.
+By writing this program, I learned how to use Python to load data from a JSON file, how to use the difflib library to find the closest matching word to a given input, and how to return values from functions in Python. Also practiced writing code that prompts the user for input and handles various scenarios where the input may not be found in the data. 
